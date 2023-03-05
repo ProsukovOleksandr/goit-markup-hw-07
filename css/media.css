@@ -1,0 +1,169 @@
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+  .main-container {
+    width: 480px;
+  }
+  .descr {
+    gap: 72px;
+  }
+  .descr-item {
+    width: calc((100%-24px));
+  }
+  .team-container{
+    width: 480px;
+  }
+  .team-list{
+  row-gap: 72px;
+  }
+  .team-item{
+    display: flex;
+  }
+  footer .text{
+    width:268px ;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .main-container {
+    width: 768px;
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+  .btn {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .main-title {
+    margin-bottom: 40px;
+    width: 500px;
+    font-size: 56px;
+    line-height: calc(60 / 56);
+  }
+  .descr {
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+  .descr-item {
+    text-align: left;
+    width: 356px;
+    height: 120px;
+  }
+  .team-container{
+    width: 768px;
+  }
+  .team-list{
+    column-gap: 24px;
+  row-gap: 64px;
+  }
+  .team-item{
+    display: flex;
+  }
+  .footer-content{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   column-gap: 24px;
+  }
+  .footer-info{
+    width: 264px;
+    margin: 0;
+    margin-bottom: 72px;
+  }
+  footer .logo{
+    margin-left: 0;
+  }
+  .foot-soc-container{
+    margin: 0;
+   margin-bottom: 100px;
+  }
+  .foot-soc-title{
+    margin-left: 0;
+    font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+  }
+  .footer-form{
+    display: flex;
+  flex-direction: column;
+  width: 490px;
+  justify-content: none;
+  }
+  .input-name{
+    display: flex;
+    justify-content: revert;
+    margin-bottom: 16px;
+  }
+  .footer-label{
+  
+  }
+  .footer-input{
+    width: 264px;
+  }
+  .footer-input-wrap{
+   display: flex;
+   flex-direction: row;
+  }
+  .footer-btn{
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+    margin: 0 auto;
+  }
+  .main-container {
+    width: 1440px;
+    margin: 0 auto;
+  }
+  .main-title {
+    margin-bottom: 48px;
+  }
+  .descr{
+    gap: 24px;
+  }
+  .descr-item {
+    width: 264px;
+  }
+  .desc-icon,
+  .thumb {
+    display: flex;
+  }
+  .skills-container{
+    display: block;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+  .customers-title{
+    width:183px;
+  }
+  .customers-list{
+   flex-wrap: nowrap;
+   gap: 24px;
+  }
+  .customers-container{
+    margin-top: 120px ;
+  }
+  .customer-link{
+    width: 168px;
+  }
+  .team-container{
+    width: 1440px;
+  }
+  .team-list{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .team-item{
+    display: inline-block;
+  }
+}

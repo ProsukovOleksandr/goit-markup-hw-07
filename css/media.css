@@ -96,8 +96,16 @@ width: 480px;
   .phone-number {
     display: flex;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.33;
+    font-size: 12px;
+    line-height:calc(14/12);
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+  }
+  .email-link{
+    display: flex;
+    font-weight: 400;
+    font-size: 12px;
+    line-height:calc(14/12);
     letter-spacing: 0.02em;
     color: var(--text-color);
   }
@@ -220,6 +228,7 @@ width: 480px;
   .menu {
     padding: 0;
     margin-left: 76px;
+    margin-right: 0;
     display: flex;
     gap: 40px;
   }
@@ -241,14 +250,16 @@ width: 480px;
     border-radius: 2px;
   }
   .contacts-list{
-    font-weight: 400;
+    width: 100%;
+  font-weight: 400;
   display: flex;
   flex-direction: row;
   margin-left: 332px;
   gap: 40px;
   padding: 0;
+
   }
-  .phone-number {
+  .phone-number{
     display: flex;
     font-weight: 400;
     font-size: 16px;
@@ -266,6 +277,10 @@ width: 480px;
   }
   .main-title {
     margin-bottom: 48px;
+  }
+  .descr-container{
+    margin: 0 auto;
+    width: 1158px;
   }
   .descr {
     gap: 24px;
@@ -290,6 +305,8 @@ width: 480px;
     gap: 24px;
   }
   .customers-container {
+    width: 1158px;
+    margin: 0 auto;
     margin-top: 120px;
   }
   .customer-link {
@@ -297,6 +314,7 @@ width: 480px;
   }
   .team-container {
     width: 1440px;
+    margin: 0 auto;
   }
   .team-list {
     display: flex;
@@ -308,6 +326,7 @@ width: 480px;
   }
   .footer-container {
     width: 1440px;
+    margin: 0 auto;
   }
   footer .container {
     width: 1440px;

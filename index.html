@@ -12,12 +12,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&
 family=Roboto:wght@400;500;700;900&display=swap" 
 rel="stylesheet">
+<link rel="stylesheet" href="./js/modal.js">
 <link rel="stylesheet" href="./css/styles.css">
 <link rel="stylesheet" href="./css/media.css">
   </head>
   <!--Site header-->
   <body>
-    <!--<header class="header-style">
+    <header class="header-style">
       <div class="container header-container">
     <nav class="navigation">
     <a href="./index.html" class="logo link"><span class="logo-item">WEB</span>STUDIO</a>
@@ -31,8 +32,61 @@ rel="stylesheet">
     <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
       <li><a class="phone-number link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
    </ul></address>
+   <button type="button" class="menu-open" data-menu-open>
+    <svg class="menu-icon" width="29" height="18">
+      <use href="./images/symbol-defs.svg#icon-charm_menu-hamburger"></use>
+    </svg>
+   </button>
   </div>
-  </header>-->
+  <div class="mobile-menu is-hidden" data-menu>
+    <div class="container">
+      <div>
+      <button type="button" class="menu-close" data-menu-close>
+        <svg class="menu-close-icon" width="8" height="8">
+          <use href="./images/symbol-defs.svg#icon-close-black-18dp-1"></use>
+        </svg>
+       </button>
+   <ul class="mobile-menu-list list">
+    <li class="mobile-menu-item current"><a href="./index.html" class="mobile-menu-link link">Studio</a> </li>
+    <li class="mobile-menu-item"><a href="./portfolio.html" class="mobile-menu-link link">Portfolio</a></li>
+    <li class="mobile-menu-item"><a href="" class="mobile-menu-link link">Contacts</a></li>
+   </ul>
+  </div>
+  <div>
+    <address><ul class="list mobile-contacts-list">
+      <li><a class="mob-phone-number link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <li><a class="mob-email-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+     </ul></address>
+     <ul class="mobile-soc-list list">
+      <li class="mobile-soc-item"><a class="mobile-soc-link link" href="">
+        <svg class="mobile-soc-icon" width="24" height="19">
+          <use href="./images/symbol-defs.svg#icon-instagram-2"></use>
+        </svg>
+      </a>
+    </li>
+      <li class="mobile-soc-item"><a class="mobile-soc-link link" href="">
+        <svg class="mobile-soc-icon" width="24" height="19">
+          <use href="./images/symbol-defs.svg#icon-twitter-1-1"></use>
+        </svg>
+      </a>
+    </li>
+      <li class="mobile-soc-item"><a class="mobile-soc-link link" href="">
+        <svg class="mobile-soc-icon" width="24" height="19">
+          <use href="./images/symbol-defs.svg#icon-facebook-1-1"></use>
+        </svg>
+      </a>
+    </li>
+      <li class="mobile-soc-item"><a class="mobile-soc-link link" href="">
+        <svg class="mobile-soc-icon" width="24" height="19">
+          <use href="./images/symbol-defs.svg#icon-linkedin-1-1"></use>
+        </svg>
+      </a>
+    </li>
+    </ul>
+  </div>
+    </div>
+  </div>
+  </header>
   <!--Main page-->
   <main>
     <section class="main-container">
@@ -280,7 +334,6 @@ rel="stylesheet">
 <footer class="footer-container">
   <div class="container">
     <div class="footer-content">
-
     <div class="footer-info">
   <a class="logo link" href="./index.html"><span class="logo-item">WEB</span>
     <span class="logo-second-item">STUDIO</span></a>
@@ -331,11 +384,11 @@ rel="stylesheet">
         placeholder="E-mail"
         >
     </label>
-    
     <button type="submit" class="main-btn footer-btn">Subscribe 
       <svg class="footer-icon" width="24px" height="24px" >
         <use href="./images/symbol-defs.svg#icon-Frame-3"></use>
       </svg>
+      </button>
     </div>
     </div>
     </form>
@@ -419,6 +472,7 @@ required>
   </div>
 </div>
 <script src="./js/modal.js"></script>
+<script src="./js/menu.js"></script>
   </body>
 </html>
 

@@ -1,14 +1,19 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .container {
     width: 480px;
+    margin: 0 auto;
   }
   .header-style {
     width: 480px;
+    margin: 0 auto;
   }
   .main-container {
     width: 480px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 auto;
+  }
+  .main-title {
+    font-size: 36px;
+    width: 320px;
   }
   .mob-phone-number {
     font-size: 36px;
@@ -16,6 +21,10 @@
   }
   .mobile-soc-list {
     gap: 56px;
+  }
+  .descr-container{
+    width: 480px;
+    margin: 0 auto;
   }
   .descr {
     gap: 72px;
@@ -25,8 +34,7 @@
   }
   .team-container {
     width: 480px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 auto;
   }
   .team-list {
     row-gap: 72px;
@@ -34,26 +42,32 @@
   .team-item {
     display: flex;
   }
+  .customers-container{
+    width: 480px;
+    margin: 0 auto;
+  }
+  .footer-container{
+    width: 480px;
+    margin: 0 auto;
+  }
   footer .text {
     width: 268px;
   }
 }
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .container {
     width: 768px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 auto;
   }
   .header-style {
     width: 768px;
+    margin: 0 auto;
   }
   .header-container {
     width: 768px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 auto;
   }
   .menu-open {
     display: none;
@@ -116,9 +130,27 @@
     width: 768px;
     padding-top: 112px;
     padding-bottom: 112px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 auto;
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/dark-bg-tablet.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover, cover;
   }
+  @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .main-container {
+    background-image:linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),url(../images/dark-bg-tablet-2x.jpg);
+  }
+}
   .btn {
     font-size: 16px;
     line-height: 1.5;
@@ -131,8 +163,7 @@
   }
   .descr-container {
     width: 768px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 auto;
   }
   .descr {
     column-gap: 24px;
@@ -145,6 +176,7 @@
   }
   .team-container {
     width: 768px;
+    margin: 0 auto;
   }
   .team-list {
     column-gap: 24px;
@@ -155,13 +187,11 @@
   }
   .customers-container {
     width: 768px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 auto;
   }
   .footer-container {
     width: 768px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 auto;
   }
   .footer-content {
     display: flex;
@@ -280,9 +310,30 @@
   .main-container {
     width: 1440px;
     margin: 0 auto;
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-1.jpg);
   }
+
+  @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .main-container {
+    background-image:linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),url(../images/people-office-1-2x.jpg);
+  }
+}
   .main-title {
+    width: 496px;
     margin-bottom: 48px;
+    font-size: 56px;
+ line-height: calc(60/56);
+ letter-spacing: 0.02em;
   }
   .descr-container {
     margin: 0 auto;
@@ -335,13 +386,16 @@
     margin: 0 auto;
   }
   footer .container {
-    width: 1440px;
+    width: 1158px;
   }
   .footer-content {
+    display: flex;
     align-items: baseline;
+    flex-direction: row;
   }
   footer .logo {
     margin-bottom: 0;
+    margin-left: 0;
   }
   .footer-info {
     display: flex;
@@ -353,7 +407,20 @@
     margin-left: 120px;
     margin-right: 80px;
   }
+  .foot-soc-title{
+    margin-left: 0;
+  }
   .footer-form {
     margin: 0;
+  }
+  .input-name{
+    width: 75px;
+  }
+  .footer-input-wrap{
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-btn{
+    margin-top: 0;
   }
 }

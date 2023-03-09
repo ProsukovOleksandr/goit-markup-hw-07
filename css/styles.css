@@ -280,10 +280,14 @@ ul {
   text-align: center;
   width: 100%;
 }
-.descr-item .text {
-  margin-top: 8px;
-  margin-bottom: 0;
-  text-align: left;
+.descr-item .third-title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(40/36);
+  letter-spacing: 0.02em;
+}
+.descr-item .text{
+  font-weight: 500;
 }
 .desc-icon {
   display: none;

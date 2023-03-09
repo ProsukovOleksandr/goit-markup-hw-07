@@ -121,8 +121,8 @@
   }
   .main-container {
     width: 768px;
-    padding-top: 112px;
-    padding-bottom: 112px;
+    padding-top: 188px;
+    padding-bottom: 188px;
     margin: 0 auto;
     background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -178,6 +178,12 @@
   }
   .customers-container {
     margin: 0 auto;
+  }
+  .customers-list{
+   width: 552px;
+  }
+  .customer-link{
+    width: 170px;
   }
   .footer-container {
     margin: 0 auto;
@@ -295,7 +301,7 @@
     color: var(--text-color);
   }
   .main-container {
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
     background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),

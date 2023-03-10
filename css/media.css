@@ -166,6 +166,13 @@
     width: 356px;
     height: 120px;
   }
+  .descr-item .third-title{
+    display: block;
+  }
+  .descr-item .text{
+    margin: 0;
+    margin-top: 8px;
+  }
   .team-container {
     margin: 0 auto;
   }
@@ -233,7 +240,6 @@
     margin: 0;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .container {
     width: 1158px;
@@ -336,12 +342,14 @@
   }
   .descr-item {
     width: 264px;
-    text-align: left;
   }
   .descr-item .text{
     font-weight: 400;
+    margin: 0;
+    margin-top: 8px;
   }
   .descr-item .third-title{
+   display: block;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
